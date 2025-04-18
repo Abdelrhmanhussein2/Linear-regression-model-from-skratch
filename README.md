@@ -40,10 +40,9 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
-
 ## 📜 License
 
-This project is for educational purposes. No warranty is provided. Dataset copyright belongs to the original creators.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
