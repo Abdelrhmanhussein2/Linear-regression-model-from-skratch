@@ -1,35 +1,38 @@
 # 📊 Student Performance - Linear Regression from Scratch
 
-This project demonstrates how to build a **Multiple Linear Regression** model from scratch using Python. The dataset used contains academic performance data of students, and the goal is to predict their final scores based on various input features.
+This project demonstrates how to build a Multiple Linear Regression model from scratch using Python and NumPy. The dataset contains academic performance data of students, with the goal of predicting their final scores based on various lifestyle and academic-related input features.
 
 ---
 
 ## 🧠 Objective
 
 To understand and implement the full pipeline of a regression model, including:
-- Data preprocessing
-- Exploratory data analysis (EDA)
-- Feature selection
-- Model implementation using NumPy
-- Evaluation using R² score
+
+- 🧹 Data preprocessing  
+- 📊 Exploratory Data Analysis (EDA)  
+- 🔍 Feature selection  
+- 🧮 Model implementation using NumPy (no libraries like sklearn for modeling)  
+- 📈 Model evaluation using R² score
 
 ---
 
 ## 📁 Dataset
 
-- **Source**: [`Student_Performance.csv`](https://www.kaggle.com/datasets/harshitshankhdhar/student-performance-prediction)
-- The dataset includes features like:
+- Source: [Student Performance Dataset on Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/student-performance-prediction)
+- Format: CSV file
+- Key Features:
   - Hours Studied
   - Previous Scores
   - Sleep Hours
   - Extracurricular Activities
-  - and more...
+  - Final Score (target)
 
 ---
 
-## 🛠️ Libraries Used
+## 🛠 Libraries Used
 
-```python
+The following libraries are used for data handling, visualization, and evaluation only:
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -37,6 +40,11 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📜 License
+
+This project is for educational purposes. No warranty is provided. Dataset copyright belongs to the original creators.
+
+---
+
+### ✨ Contributions welcome!
