@@ -33,12 +33,11 @@ To understand and implement the full pipeline of a regression model, including:
 
 The following libraries are used for data handling, visualization, and evaluation only:
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import r2_score
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
 ## 📜 License
 
